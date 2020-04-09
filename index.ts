@@ -8,9 +8,9 @@ const suite = new Benchmark.Suite
 const src = Array.from({length: 1000})
 
 suite.add('for version', () => {
-  forVersion(src)
+  forVersion(src, 200)
 }).add('reduce version', () => {
-  reduceVersion(src)
+  reduceVersion(src, 200)
 }).on('cycle', (event) => {
   console.log(String(event.target))
 }).on('complete', function () {
