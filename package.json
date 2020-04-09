@@ -1,0 +1,16 @@
+{
+  "name": "build-chunks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Takagi Kensuke <janus.wel.3@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx ts-node ./index.ts"
+  },
+  "devDependencies": {
+    "@types/benchmark": "1.0.31",
+    "@types/node": "13.11.1",
+    "benchmark": "2.1.4",
+    "typescript": "3.8.3"
+  }
+}
